@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>View details</title>
+        <meta charsert="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link rel="stylesheet" href="ztyles.css">
+       
+        <head>
+            <body>
+          <header>
+            <h1><img> STUDENTS PORTAL</h1>
+        
+
+        </header>
+        <div class="nav" onclick="toggleMenu()">
+            <div class="ham"></div>
+                <div class="ham"></div>
+                    <div class="ham"></div>
+            
+        </div>
+        <div class="navigation menu" id="sidebar">
+            <div class="link back" onclick="window.location.href='stuportal.html'"><span class="material-symbols-outlined">home</span> Dashboard </div>
+            <div class="border"></div>
+             <div class="link" onclick="window.location.href=''">COMMON</div>
+              <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">thumbnail_bar</span> My Account</div>
+               <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">mail</span> Messages</div>
+<div class="border"></div>
+                <div class="link" onclick="window.location.href=''">HELB MENU</div>
+                 <div class="link back" onclick="window.location.href=''"><span class="material-symbols-outlined">menu</span> Loan Application</div>
+                  <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">person_add</span> My Profile</div>
+                 <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">local_fire_department</span> Update institutions</div>
+                 <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">height</span> Funds Appeal</div>
+             <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">sd</span> Postgrad Scholarships</div>
+              <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">extension</span> My Loans</div>
+               <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">account_balance_wallet</span> Self Service</div>
+        <div class="border"></div>
+                <div class="link" onclick="window.location.href=''">HELP DESK</div>
+             <div class="link" onclick="window.location.href=''"><span class="material-symbols-outlined">support</span> Contact Us</div>
+        </div>
+        <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+         <img width="40px" height="40px"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGbstewTUA2Mm7jaUsqJlLVTMeoga4y3Rcwg&s">
+<main>
+    <h1 class="loans">
+    My Loans and Scholarship
+</h1>
+<p>
+    <a href="#">Dashbord-Loans and Scholarships &gt &gt view details</a> <br>    -My Loans and Schorlasips
+</p>
+    <div class="sector">
+    <p>Dear <b>MUOKI BENSON</b> you have not been allocated any <br>loan amount due to <b class="red">FAILED SECOND APPLICATION.</b>
+    <br>Consider vising our <b>HELB support center</b> by <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.helb.co.ke/contacts/&ved=2ahUKEwje5O-unLOPAxUWZ_EDHba_LvUQFnoECCEQAQ&sqi=2&usg=AOvVaw13AiPWDsMg5qwirMl3Xqpb">clicking here.</a>
+    </p>
+    </div>
+</main>
+
+
+<script>
+    function toggleMenu() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('show');
+    }
+  </script> 
+            </body>
+            </html>
